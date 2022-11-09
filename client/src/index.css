@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Antd Override */
+
+input {
+  border-radius: 2px !important;
+  border: 1px solid rgba(128, 128, 128, 0.521) !important;
+  height: 40px !important;
+}
+
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: 1px solid !important;
+}
+
+.ant-form-item {
+  margin: 10px 0 !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: black !important;
+}
+
+/* Normal Styling */
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.normal-text {
+  font-size: 1rem;
+}
+
+.card {
+  box-shadow: 0 0 2px gray;
+  border-radius: 0 !important;
+}
+
+.primary-button {
+  background-color: rgb(79, 79, 168) !important;
+  border-color: #302f31 !important;
+  height: 40px !important;
+  width: 100% !important;
+  color: white !important;
+  font-size: 16px !important;
+}
+
+.anchor {
+  color: black !important;
+  text-decoration: underline !important;
+  font-size: 16px !important;
+}
+
+.anchor:hover {
+  text-decoration: underline !important;
+}
+/* auth pages */
+
+.auth {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(79, 79, 168);
+}
+
+.auth-form {
+  width: 400px;
+}
+
+.auth .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white !important;
+  max-width: max-content;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
